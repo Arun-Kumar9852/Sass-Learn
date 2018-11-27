@@ -1,0 +1,23 @@
+@import "01-plugins/_plugins";
+@import "02-tools/_tools";
+@import "03-basics/_basics";
+@import "04-modules/_modules";
+@import "05-pages/_pages";
+
+//.test{
+//    background-color: rgba(#f00,0.5);
+//    color: mix(#f00,#000);
+//}
+
+
+h2{
+    color: dodgerblue;
+    background: pink;
+    
+@at-root{
+    .style{
+        font-size: 24px;
+        color: aqua;
+    }
+    }
+}
